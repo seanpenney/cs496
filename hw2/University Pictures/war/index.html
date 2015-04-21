@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script
+	src="bootstrap.min.js"></script>
+<script src="university_form.js"></script>
+<title>University Photos</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="display.html">Display Photos</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+
+	<div class="container">
+		<h1>University Photo App</h1>
+		<p>Add new name and photo</p>
+
+		<form role="form" id="university_form">
+			<div class="form-group">
+				<label for="name">University Name:</label> <input type="text"
+					class="form-control" id="university_name_input">
+			</div>
+			<div class="form-group">
+				<label for="photo">Photo URL:</label> <input type="url"
+					class="form-control" id="university_photo_input">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
