@@ -20,7 +20,8 @@
             android:id="@+id/surfaceView1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_centerInParent="true" />
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
 
         <Button
             android:id="@+id/previewFront"
@@ -31,11 +32,19 @@
             android:onClick="previewPicture"
             android:text="Preview Camera" />
 
+        <EditText
+            android:id="@+id/caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/previewFront"
+            android:layout_centerInParent="true"
+            android:hint="Enter caption for photo" />
+
         <Button
             android:id="@+id/captureFront"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/previewFront"
+            android:layout_below="@+id/caption"
             android:layout_centerInParent="true"
             android:onClick="takePicture"
             android:text="Take Photo" />
