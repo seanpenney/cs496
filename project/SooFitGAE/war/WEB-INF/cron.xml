@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/cron/highest</url>
+		<description>Find highest stat</description>
+		<schedule>every 2 minutes</schedule>
+	</cron>
+</cronentries>
