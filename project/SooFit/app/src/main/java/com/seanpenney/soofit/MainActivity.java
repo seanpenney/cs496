@@ -206,6 +206,12 @@ public class MainActivity extends ActionBarActivity
                 onSectionAttached(2);
                 break;
 
+            case 2:
+                StatsFragment statsFragment = new StatsFragment();
+                fragmentTransaction.replace(R.id.container, statsFragment).commit();
+                onSectionAttached(3);
+                break;
+
             default:
                 fragmentTransaction.replace(R.id.container, PlaceholderFragment.newInstance(position + 1)).commit();
                 break;
@@ -305,7 +311,7 @@ public class MainActivity extends ActionBarActivity
                 mTitle = "Pedometer";
                 break;
             case 3:
-                mTitle = getString(R.string.title_section3);
+                mTitle = "Stats";
                 break;
         }
     }
