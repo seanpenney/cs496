@@ -4,7 +4,6 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,8 +24,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -64,7 +61,7 @@ public class StatsFragment extends Fragment {
             public void processFinish(double calories, double date) {
                 caloriesText.setText("Most calories burned: " + String.format("%.2f", calories));
 
-                Date dateSet = new Date((long)date);
+                Date dateSet = new Date((long) date);
                 SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy");
                 dateText.setText("Record set on: " + dateFormat.format(dateSet));
             }

@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/pedometer_hint"
+        android:id="@+id/pedometer_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -16,7 +16,7 @@
         android:id="@+id/pedometer_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pedometer_hint"
+        android:layout_below="@+id/pedometer_label"
         android:layout_centerInParent="true"
         android:text="Pedometer count"
         android:textSize="40dp" />
