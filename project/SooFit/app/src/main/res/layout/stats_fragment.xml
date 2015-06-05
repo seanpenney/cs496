@@ -16,8 +16,8 @@
         android:id="@+id/stats_calories"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/stats_text"
+        android:layout_centerInParent="true"
         android:text="Highest # Calories"
         android:textSize="30dp" />
 
@@ -25,8 +25,8 @@
         android:id="@+id/stats_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_below="@+id/stats_calories"
+        android:layout_centerInParent="true"
         android:text="Date Set"
         android:textSize="30dp" />
 

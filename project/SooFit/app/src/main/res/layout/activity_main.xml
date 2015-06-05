@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--&lt;!&ndash; As the main content view, the view below consumes the entire&ndash;&gt;-->
-    <!--&lt;!&ndash;space available using match_parent in both dimensions. &ndash;&gt;-->
-    <!--<FrameLayout-->
-    <!--android:id="@+id/container"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent" />-->
-
     <LinearLayout
         android:id="@+id/main_linear_layout"
         android:layout_width="match_parent"
@@ -30,7 +23,6 @@
                 android:id="@+id/content_header_relative_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-
 
         </FrameLayout>
 
@@ -50,7 +42,6 @@
                 android:id="@+id/content_footer_relative_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-
 
         </FrameLayout>
 
